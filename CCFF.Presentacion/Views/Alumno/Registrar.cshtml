@@ -1,0 +1,134 @@
+﻿
+
+@using CCFF.Modelo
+@using CCFF.Presentacion.Models.Lenguage
+@{
+    ViewBag.Title= "Resgistrar";
+    ViewBag.Subtitle = "Resgistrar Estudiante";
+
+    Alumno alumno = new Alumno();
+    LenguageModelButton lenguageModelButtons = new LenguageModelButton().GetLanguageForView();
+    
+
+}
+
+
+@*<div class="table-decoration">*@
+<div class="row">
+    <div class="col-sm-6 col-md-6">
+        <div class="tile">
+
+             <h3 class="tile-title"><strong>@lenguageModelButtons.RegisterStudent</strong></h3>
+            <div class="form-group">
+                <label for="dni">@lenguageModelButtons.Ingrese_DNI</label>
+                <div class="input-group">
+                    <input type="number" min="1" max="99999999" id="dni" class="form-control" placeholder="Enter DNI" />&nbsp;
+                    <button class="btn btn-primary" id="buscardni" align="right" onClick="consultarDni()">@lenguageModelButtons.Search</button>
+                </div>
+            </div>
+            <div class="tile-body" >
+                
+                <input type="hidden" id="txtId" value="0" />
+                <div class="form-group">  
+                    <label class="control-label">@lenguageModelButtons.Codigo</label>
+                    <input class="form-control" type="text" placeholder="Enter code" id="inputCodigo" required />
+                    
+                </div>
+                <div class="form-group">
+                    <label class="control-label">DNI</label>
+                    <input class="form-control" type="text" placeholder="DNI" id="dni_ciudadano" required readonly/>
+                    
+                </div>
+                <div class="form-group">
+                    <label class="control-label">@lenguageModelButtons.Nombre</label>
+                    <input class="form-control" type="text" placeholder="Name" id="nombres" required readonly/>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">@lenguageModelButtons.Apellido</label>
+                    <input class="form-control" type="text" placeholder="Last name" id="apellidos" required readonly/>
+                </div>
+                <div class="form-group" >
+                    <label class="control-label">@lenguageModelButtons.Correo</label>
+                    <input class="form-control" type="email" placeholder="Enter email" id="inputCorreo" required />
+                   
+                    
+                   
+                </div>
+                <div class="form-group">
+                    <label class="control-label">@lenguageModelButtons.Celular</label>
+                    <input class="form-control" type="text" placeholder="Enter phone" id="inputCelular" required />
+                </div>
+            </div>
+            <div class="tile-footer">
+                <a class="btn btn-secondary" href="/Alumno/Listar"><i class="fa fa-fw fa-lg fa-times-circle"></i>@lenguageModelButtons.Cancel</a>&nbsp;&nbsp;&nbsp;<button class="btn btn-primary btn-register"> <i class="fa fa-fw fa-lg fa-check-circle"></i>@lenguageModelButtons.Register</button>
+            </div>
+        </div>
+    </div>
+</div>
+@*</div>*@
+
+@section scripts{
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/js/Estudiante.js"></script>
+
+  
+    <script>
+
+        var Conruc;
+
+        consultarDni = function () {
+            Conruc = document.getElementById("dni").value;
+            consulta = {
+                "Conruc": String(Conruc)
+            };
+            if (Conruc.length == 8) {
+                fetch("https://dniruc.apisperu.com/api/v1/dni/" + Conruc + "?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImpvbmVsLnNhY3JhbWVudG9Ab3V0bG9vay5jb20ifQ.aMnk3frNo8ai1cSsBuQzHQjZfFP2B0BPHGXQ26zMEHA",
+                    {
+                        method: "GET",
+                        data: JSON.stringify(consulta),
+                        headers: { "Content-type": "application/json;charset=UTF-8" }
+                    }).then(response => response.json())
+                    .then(json => {
+                        document.getElementById("dni_ciudadano").value = json.dni;
+                        document.getElementById("nombres").value = json.nombres;
+                        document.getElementById("apellidos").value = json.apellidoPaterno + " " + json.apellidoMaterno;
+                    })
+
+                    .catch(err => console.log(err));
+
+            } else if (Conruc.length == 11) {
+                fetch("https://dniruc.apisperu.com/api/v1/ruc/" + Conruc + "?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImpvbmVsLnNhY3JhbWVudG9Ab3V0bG9vay5jb20ifQ.aMnk3frNo8ai1cSsBuQzHQjZfFP2B0BPHGXQ26zMEHA",
+                    {
+                        method: "GET",
+                        data: JSON.stringify(consulta),
+                        headers: { "Content-type": "application/json;charset=UTF-8" }
+                    }).then(response => response.json())
+                    .then(json => {
+                        document.getElementById("dni_ciudadano").value = json.ruc;
+                        document.getElementById("nombres").value = json.razonSocial;
+                        document.getElementById("apellidos").value = json.direccion;
+                    })
+
+                    .catch(err => console.log(err));
+
+            }
+            else {
+                alert("Erros");
+            }
+            
+
+        }
+
+        $("#dni").keypress(function (event) {
+            if (event.keyCode === 13) {
+                $("#buscardni").click();
+            }
+        });
+    </script>
+
+ 
+
+   
+
+}
+

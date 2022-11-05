@@ -1,0 +1,17 @@
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\bin\Release\net6.0\CCFFF.Logica.deps.json
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\bin\Release\net6.0\CCFFF.Logica.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\bin\Release\net6.0\CCFFF.Logica.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\bin\Release\net6.0\CCFF.Datos.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\bin\Release\net6.0\CCFF.Modelo.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\bin\Release\net6.0\CCFF.Datos.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\bin\Release\net6.0\CCFF.Modelo.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.csproj.AssemblyReference.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.AssemblyInfoInputs.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.AssemblyInfo.cs
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.csproj.CoreCompileInputs.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.csproj.CopyComplete
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\refint\CCFFF.Logica.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\CCFFF.Logica.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Release\net6.0\ref\CCFFF.Logica.dll

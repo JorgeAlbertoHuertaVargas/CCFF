@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb7kqgPtbck+lwPaLwIn7yAAAAAACAAAAAAAQZgAAAAEAACAAAABFSqUQe1U3U7fmyIe2Qi2ix5XHnSIxG8KcEo1pA8/6zgAAAAAOgAAAAAIAACAAAAA0gZW+3GWRGCsRvumC1mFRerlS5x7IO8IhwdqL/3ArtoAAAAAyO5/oAdMRiZ8Ew7piXozH0xZO9JwZkk3LddBrMGUABGJxPU3SLE98nMvx/xXplnbKoR/qSYX7RG916theKTs8DWLi3Et2h8/kLTTpUcdtF1gCofGNhHe1TUUTjWeKrQ+QmdKJxdVjEUmFIDmAPexmpwgV8FiVdCZIWrSMLyf5uEAAAABN6QpLEx69baXZI1FydX0UDu/8Ky3m4idNA0meF630OUYVkGk3Q2hZt7vfZOPSnuIXL4gVL/KV0RK1FKIITxAH</EncryptedPassword>
+    <History>True|2022-11-01T02:52:19.2232913Z;True|2022-10-30T09:58:40.2512006-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cadenaconexion">
+      <Value>Server=tcp:callupeserver.database.windows.net,1433%3bInitial Catalog=JoeCC.FF%3bPersist Security Info=False%3bUser ID=callupeserver%3bPassword=callupe,1212%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

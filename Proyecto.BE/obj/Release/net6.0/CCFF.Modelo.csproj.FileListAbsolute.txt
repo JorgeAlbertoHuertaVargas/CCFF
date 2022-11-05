@@ -1,0 +1,12 @@
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\bin\Release\net6.0\CCFF.Modelo.deps.json
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\bin\Release\net6.0\CCFF.Modelo.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\bin\Release\net6.0\CCFF.Modelo.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\CCFF.Modelo.csproj.AssemblyReference.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\CCFF.Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\CCFF.Modelo.AssemblyInfoInputs.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\CCFF.Modelo.AssemblyInfo.cs
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\CCFF.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\CCFF.Modelo.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\refint\CCFF.Modelo.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\CCFF.Modelo.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Release\net6.0\ref\CCFF.Modelo.dll

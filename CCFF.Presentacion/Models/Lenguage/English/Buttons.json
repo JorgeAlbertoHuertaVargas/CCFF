@@ -1,0 +1,38 @@
+{
+  "Register": "Register",
+  "Edit": "Edit",
+  "Delete": "Delete",
+  "Cancel": "Cancel",
+  "Reset": "Reset",
+  "Search": "Search",
+  "Title": "Level List",
+
+
+  "RegisterStudent": "Register Student",
+  "Codigo": "Code",
+  "Nombre": "Name",
+  "Apellido": "Last name",
+  "Correo": "Email",
+  "Celular": "Phone",
+  "Acciones": "Actions",
+  "Lis_of_Students": "List of Students",
+  "Ingrese_DNI": "Enter DNI",
+
+  "Config_system": "System Configuration",
+  "ChangeLanguage": "Change Language",
+  "Tipo": "Type",
+  "Valor": "Value",
+  "Estado": "State",
+  "Activado": "Activated",
+  "Desactivado": "Disabled",
+  "Editar": "Edit",
+  "Guardar": "Save",
+  "Cerrar": "Close",
+  "Ingles": "English",
+  "Espanol": "Spanish",
+  "Idioma": "Language"
+
+
+
+
+}

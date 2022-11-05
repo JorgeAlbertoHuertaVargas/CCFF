@@ -1,0 +1,17 @@
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\bin\Debug\net6.0\CCFF.Datos.deps.json
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\bin\Debug\net6.0\CCFF.Datos.runtimeconfig.json
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\bin\Debug\net6.0\CCFF.Datos.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\bin\Debug\net6.0\CCFF.Datos.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\bin\Debug\net6.0\CCFF.Modelo.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\bin\Debug\net6.0\CCFF.Modelo.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.csproj.AssemblyReference.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.AssemblyInfoInputs.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.AssemblyInfo.cs
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.csproj.CoreCompileInputs.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.csproj.CopyComplete
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\refint\CCFF.Datos.dll
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.pdb
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\CCFF.Datos.genruntimeconfig.cache
+C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Datos\obj\Debug\net6.0\ref\CCFF.Datos.dll

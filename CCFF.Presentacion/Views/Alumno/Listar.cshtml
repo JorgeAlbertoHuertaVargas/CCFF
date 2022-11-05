@@ -1,0 +1,71 @@
+﻿@model IEnumerable<CCFF.Presentacion.Models.ViewModel.AlumnoVM>
+@using CCFF.Presentacion.Models.Lenguage
+
+@{
+    LenguageModelButton lenguageModelButtons = new LenguageModelButton().GetLanguageForView();
+
+    ViewData["Title"] = " Estudiantes ";
+    ViewData["Subtitle"] = "Estudiantes";
+
+
+}
+
+
+<div class="table-decoration">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 header-card-title">
+            <div class="table-title">
+                <div class="float-md-start">
+                    <h3><strong>@lenguageModelButtons.Lis_of_Students</strong></h3>
+                </div>
+                <div class="float-end">
+                    <a type="button"  class="btn btn-primary button-title" href="/Alumno/Registrar"> @lenguageModelButtons.RegisterStudent</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="text-center">
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">@lenguageModelButtons.Codigo</th>
+                            <th scope="col">@lenguageModelButtons.Nombre</th>
+                            <th scope="col">@lenguageModelButtons.Apellido</th>
+                            <th scope="col">DNI</th>
+                            <th scope="col">@lenguageModelButtons.Correo</th>
+                            <th scope="col">@lenguageModelButtons.Celular</th>
+                            <th scope="col">@lenguageModelButtons.Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+
+                                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Codigo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Apellido)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Dni)</td>
+                                <td>@Html.DisplayFor(modelItem => item.correo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.celular)</td>
+
+                                <td>
+                                    <button class="btn btn-warning btn-sm me-2" title="Editar"><i class='bx bx-edit'></i></button>
+                                    <button class="btn btn-danger btn-sm" title="Eliminar"><i class='bx bx-trash' ></i></button>
+                                </td>
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+

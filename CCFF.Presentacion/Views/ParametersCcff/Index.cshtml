@@ -1,0 +1,143 @@
+﻿@model List<CCFF.Modelo.Entities.ParametersCcff>
+@using CCFF.Presentacion.Models.Lenguage
+
+@{
+     LenguageModelButton lenguageModelButtons = new LenguageModelButton().GetLanguageForView();
+    ViewData["Title"] = "Parámetros del Sistema";
+    ViewData["Subtitle"] =  "Idiomas";
+}
+
+
+
+<div class="table-decoration">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 header-card-title">
+            <div class="table-title">
+                <div class="float-md-start">
+                    <h3><strong>@lenguageModelButtons.Config_system</strong></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead class="text-center">
+                        <tr>
+                            <td scope="col">ID</td>
+                            <td scope="col">@lenguageModelButtons.Tipo</td>
+                            <td scope="col">@lenguageModelButtons.Valor</td>
+                            <td scope="col">@lenguageModelButtons.Estado</td>
+                            <td scope="col">@lenguageModelButtons.Acciones</td>
+                         </tr>
+
+                    </thead>
+                    <tbody class="text-center">
+                        @foreach (var @parameter in @Model)
+                {
+                    <tr>
+                        <td scope="col" scope="row">@parameter.Id</td>
+                        <td scope="col">@parameter.Type</td>
+                        <td>
+                            @{
+                                switch (parameter.Value)
+                                {
+                                    case "English":
+                                        <span>@lenguageModelButtons.Ingles</span>
+                                        break;
+                                    case "Spanish":
+                                        <span>@lenguageModelButtons.Espanol</span>
+                                        break;
+                                   
+                                }
+                            }
+                        </td>
+                        <td>
+                            @if (parameter.State)
+                            {
+                                <span>@lenguageModelButtons.Activado</span>
+                            }
+                            else
+                            {
+                                <span>@lenguageModelButtons.Desactivado</span>
+                            }
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_@parameter.Id">@lenguageModelButtons.ChangeLanguage</button>
+                            <!-- Modal Value -->
+                            <div class="modal fade" id="modal_@parameter.Id" tabindex="-1" role="dialog" aria-labelledby="@parameter.Id" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <form asp-action="Update">
+                                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                            <input type="hidden" name="id" value="@parameter.Id" />
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="@parameter.Id">@lenguageModelButtons.Editar @lenguageModelButtons.Idioma</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-row">
+                                                    <div class="form-group col">
+                                                        @if (parameter.Id == 1)
+                                                        {
+                                                            <select class="custom-select" name="value">
+                                                                @{
+                                                                    switch (parameter.Value)
+                                                                    {
+                                                                        case "English":
+                                                                            <option value="English" selected>@lenguageModelButtons.Ingles</option>
+                                                                            <option value="Spanish">@lenguageModelButtons.Espanol</option>
+                                                                            break;
+                                                                        case "Spanish":
+                                                                            <option value="English">@lenguageModelButtons.Ingles</option>
+                                                                            <option value="Spanish" selected>@lenguageModelButtons.Espanol</option>
+                                                                            break;
+                                                                        default:
+                                                                            <option value="English" selected>@lenguageModelButtons.Ingles</option>
+                                                                            <option value="Spanish">@lenguageModelButtons.Espanol</option>
+                                                                            break;
+                                                                    }
+                                                                }
+                                                            </select>
+                                                        }
+                                                        else
+                                                        {
+                                                            <input class="form-control" name="value" type="text" value="@parameter.Value" />
+                                                        }
+                                                    </div>
+                                                    <div class="form-group col">
+                                                        <select class="custom-select" name="state">
+                                                            @if (parameter.State)
+                                                            {
+                                                                <option value="1" selected>@lenguageModelButtons.Activado</option>
+                                                                <option value="0">@lenguageModelButtons.Desactivado</option>
+                                                            }
+                                                            else
+                                                            {
+                                                                <option value="1">@lenguageModelButtons.Activado</option>
+                                                                <option value="0" selected>@lenguageModelButtons.Desactivado</option>
+                                                            }
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">@lenguageModelButtons.Cerrar</button>
+                                                <button type="submit" class="btn btn-primary">@lenguageModelButtons.Guardar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+                    </tbody>
+                </table>
+             </div>
+         </div>
+    </div>
+</div>
