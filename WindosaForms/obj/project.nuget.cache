@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pGuGSmBQJPXSrybrojgVRzxbnPkOU9TpZO1AfdacBl0nlkisOsiZW6l+2EpQn/+FZIBleD3hGV4J/aYKadCLqg==",
+  "dgSpecHash": "cJ6Php+T+MkAifjxbLPNyqWURkvXa1+orR6kGiYvD1OFAHYhhyYw4WEM97XFdPuvW4K8DX+6yLBRddS/akECcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\WindosaForms\\WindosaForms.csproj",
+  "projectFilePath": "C:\\Users\\Alberto\\source\\repos\\JorgeAlbertoHuertaVargas\\CCFF\\WindosaForms\\WindosaForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

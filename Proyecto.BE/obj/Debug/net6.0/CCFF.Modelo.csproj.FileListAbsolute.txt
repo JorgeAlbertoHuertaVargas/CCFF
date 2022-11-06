@@ -10,3 +10,15 @@ C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proye
 C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Debug\net6.0\refint\CCFF.Modelo.dll
 C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.pdb
 C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Proyecto.BE\obj\Debug\net6.0\ref\CCFF.Modelo.dll
+C:\Users\Alberto\Source\Repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\bin\Debug\net6.0\CCFF.Modelo.deps.json
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\bin\Debug\net6.0\CCFF.Modelo.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\bin\Debug\net6.0\CCFF.Modelo.pdb
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.csproj.AssemblyReference.cache
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.AssemblyInfoInputs.cache
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.AssemblyInfo.cs
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\refint\CCFF.Modelo.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\CCFF.Modelo.pdb
+C:\Users\Alberto\Source\Repos\JorgeAlbertoHuertaVargas\CCFF\Proyecto.BE\obj\Debug\net6.0\ref\CCFF.Modelo.dll

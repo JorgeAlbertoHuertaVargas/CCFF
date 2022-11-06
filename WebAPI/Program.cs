@@ -5,6 +5,7 @@ using CCFFF.Logica.Interfaces;
 using CCFFF.Logica.Servicios;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
+using WebAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +22,7 @@ builder.Services.AddDbContext<AplicationDbContext>(opciones => {
 });
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-
+builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IAlumnoLogica, AlumnoLogica>();
 
 //Para Json de gran longitud

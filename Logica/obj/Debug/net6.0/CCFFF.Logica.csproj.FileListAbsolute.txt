@@ -15,3 +15,20 @@ C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logic
 C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Debug\net6.0\refint\CCFFF.Logica.dll
 C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Debug\net6.0\CCFFF.Logica.pdb
 C:\Users\joelc\source\repos\SITIO WEB CC.FF FIIS UNAS\Centro_Federado_FIIS\Logica\obj\Debug\net6.0\ref\CCFFF.Logica.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\bin\Debug\net6.0\CCFFF.Logica.deps.json
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\bin\Debug\net6.0\CCFFF.Logica.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\bin\Debug\net6.0\CCFFF.Logica.pdb
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\bin\Debug\net6.0\CCFF.Datos.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\bin\Debug\net6.0\CCFF.Modelo.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\bin\Debug\net6.0\CCFF.Datos.pdb
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\bin\Debug\net6.0\CCFF.Modelo.pdb
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.csproj.AssemblyReference.cache
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.AssemblyInfoInputs.cache
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.AssemblyInfo.cs
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.csproj.CopyComplete
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\refint\CCFFF.Logica.dll
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\CCFFF.Logica.pdb
+C:\Users\Alberto\source\repos\JorgeAlbertoHuertaVargas\CCFF\Logica\obj\Debug\net6.0\ref\CCFFF.Logica.dll

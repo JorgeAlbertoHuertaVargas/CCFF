@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TdAwpYyzxYZXPVApDN+MhjCIs2NY+eZrNrfdAa7wq5jAALObXmQpQq4sbw1Uq6hDSkgSdIAI8zyHPN27tV1tpA==",
+  "dgSpecHash": "bY6SyZ+mbH9sOKODqNVrEPF4yZHnveqk/A+/T7mP0hAIA6F+sEtpr8gmPyZl2sU3dvnwSfIu2pBUTf5+0uUViw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\Logica\\CCFFF.Logica.csproj",
+  "projectFilePath": "C:\\Users\\Alberto\\source\\repos\\JorgeAlbertoHuertaVargas\\CCFF\\Logica\\CCFFF.Logica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

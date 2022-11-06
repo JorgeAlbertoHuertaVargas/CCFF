@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hV5Tdq1e6pRUVyWea69YyiBOMZoLnCV2FHjt1OpwR8M83G12qVEEv+qlftcxlRHXTqbqWZiWf+YWFsnTEccRLQ==",
+  "dgSpecHash": "VbtAqGAvJd6cptuMrEo+nmozJv2JJnII6PStxgzU0C5OFBFkHW1x4xGVxZ9KuV0kQpmD/glejOrKfqmT/TGFGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\Datos\\CCFF.Datos.csproj",
+  "projectFilePath": "C:\\Users\\Alberto\\source\\repos\\JorgeAlbertoHuertaVargas\\CCFF\\Datos\\CCFF.Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alberto\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alberto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

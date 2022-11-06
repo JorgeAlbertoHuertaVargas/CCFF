@@ -2230,11 +2230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\WindosaForms\\WindosaForms.csproj",
+      "projectUniqueName": "C:\\Users\\Alberto\\source\\repos\\JorgeAlbertoHuertaVargas\\CCFF\\WindosaForms\\WindosaForms.csproj",
       "projectName": "WindosaForms",
-      "projectPath": "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\WindosaForms\\WindosaForms.csproj",
+      "projectPath": "C:\\Users\\Alberto\\source\\repos\\JorgeAlbertoHuertaVargas\\CCFF\\WindosaForms\\WindosaForms.csproj",
       "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\WindosaForms\\obj\\",
+      "outputPath": "C:\\Users\\Alberto\\Source\\Repos\\JorgeAlbertoHuertaVargas\\CCFF\\WindosaForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2255,8 +2255,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\Logica\\CCFFF.Logica.csproj": {
-              "projectPath": "C:\\Users\\Alberto\\source\\repos\\Centro_Federado_FIIS\\Logica\\CCFFF.Logica.csproj"
+            "C:\\Users\\Alberto\\source\\repos\\JorgeAlbertoHuertaVargas\\CCFF\\Logica\\CCFFF.Logica.csproj": {
+              "projectPath": "C:\\Users\\Alberto\\source\\repos\\JorgeAlbertoHuertaVargas\\CCFF\\Logica\\CCFFF.Logica.csproj"
             }
           }
         }
