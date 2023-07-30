@@ -889,6 +889,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Base de Datos\nde Alumnos"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -904,7 +907,7 @@
             "zIndex": 17,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Base de Datos\nde Alumnos",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
