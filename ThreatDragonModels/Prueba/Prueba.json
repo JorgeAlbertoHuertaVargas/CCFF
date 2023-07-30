@@ -19,14 +19,17 @@
         "cells": [
           {
             "position": {
-              "x": 890,
-              "y": 30
+              "x": 730,
+              "y": 40
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 90,
+              "height": 90
             },
             "attrs": {
+              "text": {
+                "text": "Autenticar"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -39,7 +42,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Autenticar",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -169,6 +172,217 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "7e155f9c-66b6-4aee-a7d9-ec49c4de3e25",
+            "source": {
+              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
+            },
+            "target": {
+              "cell": "48b7ad46-b7cb-44be-a980-b6f04236bb4f"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "bfa4479a-b234-42fd-a413-01af88c2064c",
+            "source": {
+              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
+            },
+            "target": {
+              "x": 730,
+              "y": 70
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "160d1190-d0bb-4c11-80f8-eece3684660d",
+            "source": {
+              "cell": "b87ffeec-76fc-4920-8555-f08185580336"
+            },
+            "target": {
+              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": 180.5
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "ea067dac-534c-44e7-8ebd-bba2c4b61c2f",
+            "source": {
+              "cell": "b87ffeec-76fc-4920-8555-f08185580336"
+            },
+            "target": {
+              "cell": "86d391da-6499-4459-aa74-d3b40084c06d"
+            },
+            "vertices": [
+              {
+                "x": 890,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "3db0f0e1-1dd0-42ab-9f19-a16e0f0bcd0f",
+            "source": {
+              "cell": "86d391da-6499-4459-aa74-d3b40084c06d"
+            },
+            "target": {
+              "cell": "b87ffeec-76fc-4920-8555-f08185580336"
+            },
+            "vertices": [
+              {
+                "x": 900,
+                "y": 130
+              }
+            ]
+          },
+          {
             "position": {
               "x": 470,
               "y": 120
@@ -194,6 +408,40 @@
             "data": {
               "type": "tm.Process",
               "name": "Sistema\nAcadémico\nUNAS",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 980,
+              "y": 10
+            },
+            "size": {
+              "width": 100,
+              "height": 100
+            },
+            "attrs": {
+              "text": {
+                "text": "Verificar\nRoles"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "86d391da-6499-4459-aa74-d3b40084c06d",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Process",
+              "name": "Verificar\nRoles",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
