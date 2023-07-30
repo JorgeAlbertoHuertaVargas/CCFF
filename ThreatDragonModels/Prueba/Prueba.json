@@ -158,6 +158,9 @@
               "threats": []
             },
             "id": "f85a8054-5a7a-47bc-8299-aae67d306bb4",
+            "labels": [
+              "Solicitud"
+            ],
             "source": {
               "cell": "48b7ad46-b7cb-44be-a980-b6f04236bb4f"
             },
@@ -169,9 +172,6 @@
                 "x": 420,
                 "y": 100
               }
-            ],
-            "labels": [
-              "Solicitud"
             ]
           },
           {
@@ -203,6 +203,9 @@
               "threats": []
             },
             "id": "7e155f9c-66b6-4aee-a7d9-ec49c4de3e25",
+            "labels": [
+              "Respuesta"
+            ],
             "source": {
               "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
             },
@@ -214,9 +217,6 @@
                 "x": 400,
                 "y": 230
               }
-            ],
-            "labels": [
-              "Respuesta"
             ]
           },
           {
@@ -248,6 +248,9 @@
               "threats": []
             },
             "id": "bfa4479a-b234-42fd-a413-01af88c2064c",
+            "labels": [
+              "Credenciales"
+            ],
             "source": {
               "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
             },
@@ -260,9 +263,6 @@
                 "x": 620,
                 "y": 70
               }
-            ],
-            "labels": [
-              "Credenciales"
             ]
           },
           {
@@ -294,6 +294,9 @@
               "threats": []
             },
             "id": "160d1190-d0bb-4c11-80f8-eece3684660d",
+            "labels": [
+              "Respuesta"
+            ],
             "source": {
               "cell": "b87ffeec-76fc-4920-8555-f08185580336"
             },
@@ -305,9 +308,6 @@
                 "x": 670,
                 "y": 150
               }
-            ],
-            "labels": [
-              "Respuesta"
             ]
           },
           {
@@ -339,6 +339,9 @@
               "threats": []
             },
             "id": "ea067dac-534c-44e7-8ebd-bba2c4b61c2f",
+            "labels": [
+              "Id Usuario"
+            ],
             "source": {
               "cell": "b87ffeec-76fc-4920-8555-f08185580336"
             },
@@ -350,9 +353,6 @@
                 "x": 890,
                 "y": 20
               }
-            ],
-            "labels": [
-              "Id Usuario"
             ]
           },
           {
@@ -384,6 +384,9 @@
               "threats": []
             },
             "id": "3db0f0e1-1dd0-42ab-9f19-a16e0f0bcd0f",
+            "labels": [
+              "Roles"
+            ],
             "source": {
               "cell": "86d391da-6499-4459-aa74-d3b40084c06d"
             },
@@ -395,9 +398,6 @@
                 "x": 900,
                 "y": 130
               }
-            ],
-            "labels": [
-              "Roles"
             ]
           },
           {
@@ -429,6 +429,9 @@
               "threats": []
             },
             "id": "1f1ef13e-7750-4589-ad79-a845811db257",
+            "labels": [
+              "Agrear Cursos"
+            ],
             "source": {
               "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
             },
@@ -440,9 +443,6 @@
                 "x": 690,
                 "y": 210
               }
-            ],
-            "labels": [
-              "Agrear Cursos"
             ]
           },
           {
@@ -474,6 +474,9 @@
               "threats": []
             },
             "id": "710f602d-8f3a-429b-8b82-eb0a02433e36",
+            "labels": [
+              "Respuesta"
+            ],
             "source": {
               "cell": "c7999157-6967-4762-a986-a68bbf3f1bc0"
             },
@@ -485,9 +488,6 @@
                 "x": 620,
                 "y": 319.5
               }
-            ],
-            "labels": [
-              "Respuesta"
             ]
           },
           {
@@ -508,7 +508,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Enviar Id Usuario",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -530,6 +530,9 @@
                 "x": 890,
                 "y": 190
               }
+            ],
+            "labels": [
+              "Enviar Id Usuario"
             ]
           },
           {
@@ -550,7 +553,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Respuesta",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -572,6 +575,9 @@
                 "x": 930,
                 "y": 290
               }
+            ],
+            "labels": [
+              "Respuesta"
             ]
           },
           {
@@ -747,8 +753,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "c7999157-6967-4762-a986-a68bbf3f1bc0",
             "zIndex": 13,
+            "id": "c7999157-6967-4762-a986-a68bbf3f1bc0",
             "data": {
               "type": "tm.Process",
               "name": "Matrícula",
@@ -781,8 +787,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "3967cb80-fe63-4d65-990e-ae0ebc71bb7b",
             "zIndex": 14,
+            "id": "3967cb80-fe63-4d65-990e-ae0ebc71bb7b",
             "data": {
               "type": "tm.Process",
               "name": "Verificar\nPago de \nMatrícula",
@@ -815,8 +821,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "cdf14cc9-a3be-446e-b542-61d2ca14a0c2",
             "zIndex": 15,
+            "id": "cdf14cc9-a3be-446e-b542-61d2ca14a0c2",
             "data": {
               "type": "tm.Process",
               "name": "Verificar si \nalumno es \nRegular",
