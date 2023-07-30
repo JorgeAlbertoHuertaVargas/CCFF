@@ -302,8 +302,8 @@
             },
             "vertices": [
               {
-                "x": 680,
-                "y": 180.5
+                "x": 670,
+                "y": 150
               }
             ],
             "labels": [
@@ -401,6 +401,90 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1f1ef13e-7750-4589-ad79-a845811db257",
+            "source": {
+              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
+            },
+            "target": {
+              "cell": "c7999157-6967-4762-a986-a68bbf3f1bc0"
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "710f602d-8f3a-429b-8b82-eb0a02433e36",
+            "source": {
+              "cell": "c7999157-6967-4762-a986-a68bbf3f1bc0"
+            },
+            "target": {
+              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": 289.5
+              }
+            ]
+          },
+          {
             "position": {
               "x": 470,
               "y": 120
@@ -460,6 +544,40 @@
             "data": {
               "type": "tm.Process",
               "name": "Verificar\nRoles",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 760,
+              "y": 240
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Matrícula"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "c7999157-6967-4762-a986-a68bbf3f1bc0",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Process",
+              "name": "Matrícula",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
