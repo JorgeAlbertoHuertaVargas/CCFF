@@ -841,14 +841,17 @@
           },
           {
             "position": {
-              "x": 1189,
-              "y": 190
+              "x": 1139,
+              "y": 160
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Base de Datos \nde Pagos"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -864,7 +867,7 @@
             "zIndex": 16,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Base de Datos \nde Pagos",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
