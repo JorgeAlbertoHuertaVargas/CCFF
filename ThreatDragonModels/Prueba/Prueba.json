@@ -687,7 +687,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Consultar",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -709,6 +709,9 @@
                 "x": 1110,
                 "y": 140
               }
+            ],
+            "labels": [
+              "Consultar"
             ]
           },
           {
@@ -729,7 +732,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Respuesta",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -751,6 +754,9 @@
                 "x": 1130,
                 "y": 240
               }
+            ],
+            "labels": [
+              "Respuesta"
             ]
           },
           {
