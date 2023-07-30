@@ -8,8 +8,19 @@
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
-    "diagramTop": 3,
+    "diagrams": [
+      {
+        "id": 3,
+        "title": "Nuevo diagrama genérico",
+        "diagramType": "Genérico",
+        "placeholder": "Descripción de nuevo diagrama genérico",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.0.3",
+        "cells": [],
+        "description": "Matricula"
+      }
+    ],
+    "diagramTop": 4,
     "reviewer": "Jorge",
     "threatTop": 0
   }
