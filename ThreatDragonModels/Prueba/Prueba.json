@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 730,
-              "y": 40
+              "x": 710,
+              "y": 15
             },
             "size": {
               "width": 90,
@@ -216,52 +216,6 @@
               {
                 "x": 400,
                 "y": 230
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Credenciales",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "bfa4479a-b234-42fd-a413-01af88c2064c",
-            "labels": [
-              "Credenciales"
-            ],
-            "source": {
-              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
-            },
-            "target": {
-              "x": 730,
-              "y": 70
-            },
-            "vertices": [
-              {
-                "x": 620,
-                "y": 70
               }
             ]
           },
@@ -671,6 +625,51 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Credenciales",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "bfa4479a-b234-42fd-a413-01af88c2064c",
+            "labels": [
+              "Credenciales"
+            ],
+            "source": {
+              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
+            },
+            "target": {
+              "cell": "b87ffeec-76fc-4920-8555-f08185580336"
+            },
+            "vertices": [
+              {
+                "x": 620,
+                "y": 70
+              }
+            ]
+          },
+          {
             "position": {
               "x": 470,
               "y": 120
@@ -706,8 +705,8 @@
           },
           {
             "position": {
-              "x": 980,
-              "y": 10
+              "x": 940,
+              "y": 5
             },
             "size": {
               "width": 100,
@@ -741,7 +740,7 @@
           {
             "position": {
               "x": 740,
-              "y": 270
+              "y": 220
             },
             "size": {
               "width": 90,
@@ -836,6 +835,80 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1189,
+              "y": 190
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "88b2ad37-33c8-408f-badc-ea50e70a266b",
+            "zIndex": 16,
+            "data": {
+              "type": "tm.Store",
+              "name": "Store",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 960,
+              "y": 513
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "e5d8f9a3-9cf5-4714-b9e5-79fd33cfdc50",
+            "zIndex": 17,
+            "data": {
+              "type": "tm.Store",
+              "name": "Store",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
               "hasOpenThreats": false,
               "threats": []
             }
