@@ -598,7 +598,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Enviar \nId Usuario",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -622,7 +622,7 @@
               }
             ],
             "labels": [
-              "Data Flow"
+              "Enviar \nId Usuario"
             ]
           },
           {
@@ -643,7 +643,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Respuesta",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -665,6 +665,9 @@
                 "x": 860,
                 "y": 425
               }
+            ],
+            "labels": [
+              "Respuesta"
             ]
           },
           {
