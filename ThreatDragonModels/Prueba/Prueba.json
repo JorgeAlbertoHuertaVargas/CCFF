@@ -192,7 +192,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Respuestas",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -214,6 +214,9 @@
                 "x": 400,
                 "y": 230
               }
+            ],
+            "labels": [
+              "Respuestas"
             ]
           },
           {
