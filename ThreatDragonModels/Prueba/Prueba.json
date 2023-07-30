@@ -147,7 +147,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Solicitudes",
+              "name": "Solicitud",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -171,7 +171,7 @@
               }
             ],
             "labels": [
-              "Solicitudes"
+              "Solicitud"
             ]
           },
           {
@@ -192,7 +192,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respuestas",
+              "name": "Respuesta",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -216,7 +216,7 @@
               }
             ],
             "labels": [
-              "Respuestas"
+              "Respuesta"
             ]
           },
           {
@@ -237,7 +237,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Credenciales",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -260,6 +260,9 @@
                 "x": 620,
                 "y": 70
               }
+            ],
+            "labels": [
+              "Credenciales"
             ]
           },
           {
@@ -280,7 +283,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Respuesta",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -302,6 +305,9 @@
                 "x": 680,
                 "y": 180.5
               }
+            ],
+            "labels": [
+              "Respuesta"
             ]
           },
           {
