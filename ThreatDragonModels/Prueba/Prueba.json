@@ -31,8 +31,8 @@
                 "text": "Autenticar"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -47,8 +47,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "d58ed32b-a4b6-40bc-b50a-b30289de34be",
+                  "title": "S - Spoofing (Suplantación de identidad):",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -473,6 +487,9 @@
               "threats": []
             },
             "id": "3bada8cf-be8c-4ad4-9bb5-76e3e3b88c3b",
+            "labels": [
+              "Enviar \nId Usuario"
+            ],
             "source": {
               "cell": "c7999157-6967-4762-a986-a68bbf3f1bc0"
             },
@@ -484,9 +501,6 @@
                 "x": 850,
                 "y": 170
               }
-            ],
-            "labels": [
-              "Enviar \nId Usuario"
             ]
           },
           {
@@ -518,6 +532,9 @@
               "threats": []
             },
             "id": "d569beab-a4ad-4bc8-a3d7-0d97ee3dc964",
+            "labels": [
+              "Respuesta"
+            ],
             "source": {
               "cell": "3967cb80-fe63-4d65-990e-ae0ebc71bb7b"
             },
@@ -529,9 +546,6 @@
                 "x": 900,
                 "y": 250
               }
-            ],
-            "labels": [
-              "Respuesta"
             ]
           },
           {
@@ -563,6 +577,9 @@
               "threats": []
             },
             "id": "becb7c8a-9ccb-4951-a05a-5341f4ac5672",
+            "labels": [
+              "Enviar \nId Usuario"
+            ],
             "source": {
               "cell": "c7999157-6967-4762-a986-a68bbf3f1bc0"
             },
@@ -574,9 +591,6 @@
                 "x": 880,
                 "y": 310
               }
-            ],
-            "labels": [
-              "Enviar \nId Usuario"
             ]
           },
           {
@@ -608,6 +622,9 @@
               "threats": []
             },
             "id": "1f42fa82-1f96-4ef0-a16e-4a84a6098dd0",
+            "labels": [
+              "Respuesta"
+            ],
             "source": {
               "cell": "cdf14cc9-a3be-446e-b542-61d2ca14a0c2"
             },
@@ -619,9 +636,6 @@
                 "x": 850,
                 "y": 380
               }
-            ],
-            "labels": [
-              "Respuesta"
             ]
           },
           {
@@ -698,6 +712,9 @@
               "threats": []
             },
             "id": "52b110c0-5cd2-4b10-9787-720363964f06",
+            "labels": [
+              "Consultar"
+            ],
             "source": {
               "cell": "3967cb80-fe63-4d65-990e-ae0ebc71bb7b"
             },
@@ -709,9 +726,6 @@
                 "x": 1170,
                 "y": 150
               }
-            ],
-            "labels": [
-              "Consultar"
             ]
           },
           {
@@ -743,6 +757,9 @@
               "threats": []
             },
             "id": "0479fd6b-23ce-4296-8608-8b34b65f38bb",
+            "labels": [
+              "Respuesta"
+            ],
             "source": {
               "cell": "88b2ad37-33c8-408f-badc-ea50e70a266b"
             },
@@ -754,9 +771,6 @@
                 "x": 1160,
                 "y": 250
               }
-            ],
-            "labels": [
-              "Respuesta"
             ]
           },
           {
@@ -788,6 +802,9 @@
               "threats": []
             },
             "id": "ed22ba68-7d3b-419e-bff6-910f9c068088",
+            "labels": [
+              "Consultar"
+            ],
             "source": {
               "cell": "cdf14cc9-a3be-446e-b542-61d2ca14a0c2"
             },
@@ -799,9 +816,6 @@
                 "x": 1050,
                 "y": 440
               }
-            ],
-            "labels": [
-              "Consultar"
             ]
           },
           {
@@ -833,6 +847,9 @@
               "threats": []
             },
             "id": "06378b97-28ca-4616-ba04-3688f80363eb",
+            "labels": [
+              "Respuesta"
+            ],
             "source": {
               "cell": "e5d8f9a3-9cf5-4714-b9e5-79fd33cfdc50"
             },
@@ -844,9 +861,6 @@
                 "x": 920,
                 "y": 430
               }
-            ],
-            "labels": [
-              "Respuesta"
             ]
           },
           {
@@ -1192,6 +1206,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
