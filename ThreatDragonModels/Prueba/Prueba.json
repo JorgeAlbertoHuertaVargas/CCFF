@@ -991,8 +991,8 @@
                 "text": "Sistema\nAcadémico\nUNAS"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -1007,8 +1007,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "4f4aa9b3-c0f8-4e3a-891e-d9fbc350f6c6",
+                  "title": "R - Repudiation (Repudiación)",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1259,6 +1273,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 5
+    "threatTop": 6
   }
 }
