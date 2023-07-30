@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 630,
-              "y": 190
+              "x": 890,
+              "y": 30
             },
             "size": {
               "width": 60,
@@ -78,6 +78,126 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "f97a4a2f-2abb-440e-83c1-f8f17b1de451",
+            "source": {
+              "x": 320,
+              "y": 60
+            },
+            "target": {
+              "x": 330,
+              "y": 320
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "f85a8054-5a7a-47bc-8299-aae67d306bb4",
+            "source": {
+              "cell": "48b7ad46-b7cb-44be-a980-b6f04236bb4f"
+            },
+            "target": {
+              "cell": "86bc7c41-1674-4d48-960d-2e94cf197db0"
+            },
+            "vertices": [
+              {
+                "x": 420,
+                "y": 100
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 470,
+              "y": 120
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Sistema\nAcadémico\nUNAS"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "86bc7c41-1674-4d48-960d-2e94cf197db0",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Sistema\nAcadémico\nUNAS",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
             }
