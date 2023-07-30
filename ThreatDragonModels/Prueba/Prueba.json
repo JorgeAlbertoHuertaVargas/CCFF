@@ -328,7 +328,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Id Usuario",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -350,6 +350,9 @@
                 "x": 890,
                 "y": 20
               }
+            ],
+            "labels": [
+              "Id Usuario"
             ]
           },
           {
@@ -370,7 +373,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Roles",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -392,6 +395,9 @@
                 "x": 900,
                 "y": 130
               }
+            ],
+            "labels": [
+              "Roles"
             ]
           },
           {
